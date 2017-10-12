@@ -22,7 +22,7 @@
                             <div class="p-5 bg-inverse text-white">
                                 <div class="name d-flex flex-row justify-content-between align-items-center">
                                     <h1 class="display-4">Rodrigo Werlich</h1>
-                                    <div><i class="fa fa-github"></i></div>
+                                    <div><a href="https://github.com/rwerlich" target="_blank"><i class="fa fa-github"></i></a></div>
                                 </div>
                             </div>
                             <div class="p-4 bg-dark">Full Stack Web Developer</div>
@@ -54,8 +54,8 @@
                 </div>
                 <div class="card card-block py-5">
                     <h3>Minhas Habilidades</h3>
-                    <p>Abaixo vou listar as tecnologias que mais utilizo no meu dia a dia de desenvolvedor web. Me considero melhor no back-end, porém o framework Bootstrap me ajuda muito a fazer layouts bem legais. No back-end gosto muito de desenvolver em PHP, por que é fácil de usar, tem muita documentação o que faz ter uma curva de crescimento muito rápida, além de possuir muitos frameworks que auxiliam bastante na produtividade, o meu preferido é p Symfony. O banco de dados que tenho mais familiaridade é o MySql.</p>
-                    <p>Na minha listagem podem notar que não tenho conhecimento 100% de nenhuma tecnologia, pois a cada dia elas estão se aprimorando e nem sempre temos tempo de ir acompanhando. Me considero desenvolvedor Full Stack por ter conhecimentos no front-end e no back-end, porém esse conhecimento jamais será 100%.</p>
+                    <p>Abaixo vou listar as tecnologias que mais utilizo no meu dia a dia de desenvolvedor web. Me considero melhor no back-end, porém o framework Bootstrap me ajuda a fazer layouts bem legais. No back-end gosto muito de desenvolver em PHP, por que é fácil de usar, tem alta disponibilidade de documentação, além de possuir diversos frameworks que auxiliam o crescimento da produtividade. O meu preferido é o Symfony. O banco de dados que tenho mais familiaridade é o MySql.</p>
+                    <p>Na minha listagem podem notar que não tenho conhecimento 100% em nenhuma tecnologia, pois a cada dia surgem novos aprimoramentos nesta área e eu tenho que acompanhar, para conseguir atender as necessidades do mercado. Me considero desenvolvedor Full Stack por ter conhecimentos no front-end e no back-end, porém esse conhecimento jamais será 100%.</p>
                     <hr>
                     <h4>HTML5</h4>
                     <div class="progress mb-3">
@@ -83,7 +83,11 @@
                     </div>
                     <h4>Symfony</h4>
                     <div class="progress mb-3">
-                        <div class="progress-bar bg-success" role="progressbar" style="width:75%"></div>
+                        <div class="progress-bar bg-success" role="progressbar" style="width:80%"></div>
+                    </div>
+                    <h4>CodeIgniter</h4>
+                    <div class="progress mb-3">
+                        <div class="progress-bar bg-success" role="progressbar" style="width:70%"></div>
                     </div>
                     <h4>SQL</h4>
                     <div class="progress mb-3">
@@ -104,10 +108,11 @@
                 <div class="card card-block card-success text-white py-5">
                     <h2>Sobre mim</h2>
                     <p>Me chamo Rodrigo, tenho
-                    <?php $hoje = date("Y-m-d");$data1 = new DateTime($hoje);$data2 = new DateTime( '1995-02-09' );$intervalo = $data1->diff($data2);echo "{$intervalo->y}";?>
-                        anos, sou casado com a Camila e temos um filho o Raul.
+                    <?php $data1 = new DateTime(date("Y-m-d"));$data2 = new DateTime('1995-02-09');$intervalo = $data1->diff($data2);echo "{$intervalo->y}";?>
+                        anos, sou casado com a Camila e temos um filho, o Raul.
                     </p>
-                    <p>Sempre gostei muito de tecnologia, mais especificamente computadores e sonhava um dia fazer meus próprios softares. Atualmente sou graduando de Ciência da Computação na UNIVALI e gosto de fazer muitos cursos online para complementar o aprendizado da faculdade.
+                    <p>Em 2017 fundei a MWM Sistemas em parceria com a Daniela, cientista da computação e minha supervisora de estágio no CRF-SC. Eu contribuindo no desenvolvimento e ela na administração e testes.</p>
+                    <p>Sempre gostei muito de tecnologia, mais especificamente computadores e sonhava um dia fazer meus próprios softwares. Atualmente sou graduando de Ciência da Computação na UNIVALI e gosto de fazer muitos cursos online para complementar o aprendizado da faculdade.
                     Gosto de unir código bem escrito com performance para ter um bom resultado.
                     </p>
                 </div>
@@ -129,7 +134,7 @@
                         <div class="card">
                             <div class="card-block">
                                 <h4 class="card-title">Conselho Regional de Farmácia (CRF-SC)</h4>
-                                <p class="card-text">Desenvolvimento de sistemas internos e para os farmaceuticos com uso de PHP, HTML5, CSS, JavaScript e Bootstrap.</p>
+                                <p class="card-text">Desenvolvimento de sistemas internos e para os farmacêuticos com uso de PHP, HTML5, CSS, JavaScript e Bootstrap.</p>
                                 <p class="p-2 mb-3 bg-inverse text-white">
                                     Cargo: Estágiario
                                 </p>                                
@@ -147,7 +152,7 @@
                                 </p>                                
                             </div>
                             <div class="card-footer">
-                                <h6 class="text-muted">Período 02/2014 - 07/2015</h6>
+                                <h6 class="text-muted">Período 08/2015 - 03/2016</h6>
                             </div>
                         </div>
                         <div class="card">
@@ -168,31 +173,34 @@
             <!-- WORK -->
             <div id="work" class="collapse">
                 <div class="card card-block card-warning text-white py-5">
-                    <h2>My Porfolio</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, placeat.</p>
+                    <h2>Meu Portfolio</h2>                    
                 </div>
                 <div class="card card-block py-5">
-                    <h3>What Have I Built?</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, inventore atque dolore blanditiis sit repudiandae!</p>
+                    <h3>O que eu desenvolvi?</h3>
+                    <p>Alguns exemplos de projetos dos quais participei ativamente no deselvolmimento.</p>
                     <div class="row no-gutters">
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=251" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                     </div>
@@ -200,21 +208,25 @@
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                         <div class="col-md-3">
                             <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
                             <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
+                            <span>Mensagem que deve aparece com o mouse em cima.</span>
                             </a>
                         </div>
                     </div>
@@ -224,18 +236,16 @@
             <div id="contact" class="collapse">
                 <div class="card card-block card-danger text-white py-5">
                     <h2>Contato</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, placeat.</p>
+                    <p>Tem alguma dúvida, sugestão ou algum projeto em mente? Me mande uma mensagem.</p>
                 </div>
-                <div class="card card-block py-5">
-                    <h3>Get In Touch</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, inventore atque dolore blanditiis sit repudiandae!</p>
-                    <form>
+                <div class="card card-block py-5">                    
+                    <form action="" method="post" onsubmit="mostraMsg()">
                         <div class="form-group">
                             <div class="input-group input-group-lg">
                                 <span class="input-group-addon bg-danger text-white">
                                 <i class="fa fa-user"></i>
                                 </span>
-                                <input type="text" class="form-control bg-inverse text-white" placeholder="Nome" required>
+                                <input type="text" class="form-control bg-inverse text-white" placeholder="Nome" required name="nome">
                             </div>
                         </div>
                         <div class="form-group">
@@ -243,7 +253,7 @@
                                 <span class="input-group-addon bg-danger text-white">
                                 <i class="fa fa-envelope"></i>
                                 </span>
-                                <input type="email" class="form-control bg-inverse text-white" placeholder="Email" required>
+                                <input type="email" class="form-control bg-inverse text-white" placeholder="Email" required name="email">
                             </div>
                         </div>
                         <div class="form-group">
@@ -251,11 +261,12 @@
                                 <span class="input-group-addon bg-danger text-white">
                                 <i class="fa fa-pencil"></i>
                                 </span>
-                                <textarea rows="5" class="form-control bg-inverse text-white" placeholder="Mensagem" required></textarea>
+                                <textarea rows="5" class="form-control bg-inverse text-white" placeholder="Mensagem" required name="mensagem"></textarea>
                             </div>
                         </div>
-                        <input type="submit" class="btn btn-danger btn-block btn-lg" value="Enviar">
+                        <input type="submit" class="btn btn-danger btn-block btn-lg" value="Enviar" name="enviar">
                     </form>
+                    <div class="alert alert-success" style="display: none" id="enviado"> <strong>Successo!</strong> Mensagem enviada. </div>
                 </div>
             </div>
             <footer class="bg-inverse text-white">
@@ -269,12 +280,12 @@
         <script>
             $('.port-item').click(function(){
               $('.collapse').collapse('hide');
-            });
-            
+            });            
             $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
         </script>
+        <script>function mostraMsg(){document.getElementById("enviado").style.display="block";}</script>
     </body>
 </html>
